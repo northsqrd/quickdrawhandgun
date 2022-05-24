@@ -10,12 +10,15 @@ end
 local function DisableFiringControls()
     DisableControlAction(0, 24, true)
     DisablePlayerFiring(PlayerId(), true)
+    DisableControlAction(1, 37, true)
 end
 
 RegisterCommand("+handonholster", function()
     local ped = PlayerPedId()
     if IsPedInAnyVehicle(ped, true) then return end
 
+    SetCurrentPedWeapon(ped, `WEAPON_UNARMED`, true)
+    
     handOnHolster = true
     local dict, anim = "reaction@intimidation@cop@unarmed", "intro"
 
