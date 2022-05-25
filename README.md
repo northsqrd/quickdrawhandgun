@@ -14,4 +14,4 @@ RegisterKeyMapping("+handonholster", "Hand on gun holster", "KEYBOARD", "YOUR KE
 See [here](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/) for a full list of valid keybinds.
 
 ## License
-Really, do whatever you want with this. It's 55 lines of *very* basic scripting. If you do improve on it though, feel free to make a PR! :)
+Really, do whatever you want with this. It's 49 lines of *very* basic scripting. If you do improve on it though, feel free to make a PR! :)
